@@ -1,0 +1,25 @@
+/* Style for the section headers */
+h2 {
+  color: #1f618d;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Style for the section content */
+p {
+  color: #2c3e50;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style for the project links */
+a {
+  color: #3498db;
+}
+
+/* Animation for the section headers */
+h2:hover {
+  transform: rotate(360deg);
+}
