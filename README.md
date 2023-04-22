@@ -61,20 +61,21 @@
     <section id="projects">
     <h2>Projects</h2>
     <div class="row">
-      <span class="col-3">
+      <div class="col-3">
         <h4>Grocery Store Management System</h4>
         <p class="subtitle">Built with Java</p>
         <p>A desktop application that manages inventory and sales for a grocery store</p>
-      </span>
-      <span class="col-3">
+      </div>
+      <div class="col-3">
         <h4>Tic Tac Toe Game</h4>
         <p class="subtitle">Built with React</p>
         <p>A web-based tic tac toe game with a computer opponent</p>
-      </span>
-      <span class="col-3">
-        <h3>Portfolio Website</h4>
+      </div>
+      <divn class="col-3">
+        <h4>Portfolio Website</h4>
+            <p class="subtitle">Built with HTML, CSS, JavaScript</p>
            <p>My personal portfolio website showcasing my projects and skills</p>
-      </span>
+      </div>
     </div>
         </section >
         <section id="leadership">
