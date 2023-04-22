@@ -3,94 +3,65 @@
 }
 
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
+ 
+align-items: center;
+background-color: #333;
+color: white;
+padding: 20px;
 }
 
 header h1 {
-  margin: 0;
-}
-
-nav {
-  display: flex;
+font-size: 36px;
+margin: 0;
 }
 
 nav a {
-  display: block;
-  margin-right: 10px;
-  padding: 10px 0;
-  text-decoration: none;
-  color: #000
+color: white;
+text-decoration: none;
+margin-left: 20px;
 }
 
 nav a:hover {
-border-bottom: 2px solid #333;
+text-decoration: underline;
+}
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
 }
 
 section {
-padding: 20px 0;
-border-bottom: 1px solid #ccc;
-}
-
-section:last-of-type {
-border-bottom: none;
+margin-bottom: 40px;
 }
 
 section h2 {
-margin: 0;
-font-size: 24px;
+font-size: 28px;
 }
 
-ul {
-margin: 0;
-padding: 0;
+section ul {
 list-style: none;
-}
-
-ul li {
-margin: 0;
 padding: 0;
 }
 
-ul li:not(:last-of-type) {
+section ul li {
 margin-bottom: 20px;
 }
 
-ul li ul li {
-margin: 0;
-padding: 0;
-list-style: none;
-margin-left: 20px;
-position: relative;
+section ul li h3 {
+margin-top: 0;
 }
 
-ul li ul li:before {
-content: "";
-position: absolute;
-top: 5px;
-left: -10px;
-width: 6px;
-height: 6px;
-background-color: #333;
-border-radius: 50%;
+section ul li p {
+margin-top: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,14 +73,4 @@ align-items: flex-start;
 nav {
 margin-top: 20px;
 }
-
-nav a {
-margin-right: 0;
-margin-bottom: 10px;
 }
-
-section h2 {
-font-size: 20px;
-}
-}
-
