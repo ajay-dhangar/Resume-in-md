@@ -71,14 +71,15 @@
         <p class="subtitle">Built with React</p>
         <p>A web-based tic tac toe game with a computer opponent</p>
       </div>
-      <divn class="col-3">
+      <div class="col-3">
         <h4>Portfolio Website</h4>
             <p class="subtitle">Built with HTML, CSS, JavaScript</p>
            <p>My personal portfolio website showcasing my projects and skills</p>
       </div>
     </div>
-        </section >
-        <section id="leadership">
+   </section >
+    
+   <section id="leadership">
     <h3>Leadership and Extracurricular Activities</h3>
     <ul>
       <li>Teaching Assistant for Computer Networks course</li>
@@ -91,8 +92,8 @@
       <li>Volunteered at non-profit organizations working towards empowering marginalized communities through technology</li>
     </ul>
   
-   </section>       
-          
+   </section>    
+       
     <section id="skills">
       <h2>Skills</h2>
       <ul>
