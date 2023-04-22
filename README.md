@@ -135,5 +135,19 @@
     <p>Available upon request.</p>
   </section>
 </main>
-  </div>
+</div>
+<button id="color-btn">Change Color</button>
+<script>
+    const colorBtn = document.querySelector('#color-btn');
+    const body = document.querySelector('body');
+
+    colorBtn.addEventListener('click', function() {
+      body.style.backgroundColor = randomColor();
+    });
+
+    function randomColor() {
+      const colors = ['#ff7f50', '#87cefa', '#6495ed', '#ff69b4', '#ffa07a', '#00fa9a'];
+      return colors[Math.floor(Math.random() * colors.length)];
+    }
+  </script>
     
