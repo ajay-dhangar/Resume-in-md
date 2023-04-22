@@ -74,3 +74,71 @@ nav {
 margin-top: 20px;
 }
 }
+.container {
+  margin: auto;
+  padding: 50px;
+  width: 80%;
+  background-color: #f2f2f2;
+}
+
+/* h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #3465a4;
+  margin-bottom: 0;
+}
+ */
+/* h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #555;
+  margin-top: 0;
+}
+ */
+h3 {
+  font-size: 24px;
+  color: #3465a4;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.col-3 {
+  flex: 1 0 30%;
+  margin-right: 3%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.col-3:last-child {
+  margin-right: 0;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+/*   padding: 0;
+  margin: 0; */
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #3465a4;
+}
+
+a:hover {
+  color: #1d3d7d;
+}
