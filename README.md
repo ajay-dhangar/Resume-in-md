@@ -6,6 +6,8 @@
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -14,7 +16,10 @@
   <main>
     <section id="about">
       <h2>About</h2>
-      <p>I am a software engineer with 3 years of experience in web development. I specialize in front-end development using HTML, CSS, and JavaScript.</p>
+      <p> Hi, I'm Ajay! I am a full stack web developer with experience in React,
+        Node.js, and SQL. I am passionate about creating clean, efficient code
+        and building intuitive user interfaces. When I'm not coding, you can
+        find me hiking or playing video games.</p>
     </section>
 
     <section id="experience">
@@ -53,7 +58,40 @@
         </li>
       </ul>
     </section>
-
+    <section id="projects">
+<h2>Projects</h2>
+    <div class="row">
+      <div class="col-3">
+        <h3>Grocery Store Management System</h4>
+        <p class="subtitle">Built with Java</p>
+        <p>A desktop application that manages inventory and sales for a grocery store</p>
+      </div>
+      <div class="col-3">
+        <h3>Tic Tac Toe Game</h4>
+        <p class="subtitle">Built with React</p>
+        <p>A web-based tic tac toe game with a computer opponent</p>
+      </div>
+      <div class="col-3">
+        <h3>Portfolio Website</h4>
+           <p>My personal portfolio website showcasing my projects and skills</p>
+      </div>
+    </div>
+        </section >
+        <section id="leadership">
+    <h3>Leadership and Extracurricular Activities</h3>
+    <ul>
+      <li>Teaching Assistant for Computer Networks course</li>
+      <li>Member of the Programming Club at Pune Institute of Computer Technology</li>
+      <li>Volunteered at local NGOs to teach underprivileged children programming</li>
+    </ul>
+    <h3>Diversity, Equity, and Inclusion Efforts</h3>
+    <ul>
+      <li>Organized and participated in events promoting gender and LGBTQ+ inclusivity in tech</li>
+      <li>Volunteered at non-profit organizations working towards empowering marginalized communities through technology</li>
+    </ul>
+  
+   </section>       
+          
     <section id="skills">
       <h2>Skills</h2>
       <ul>
